@@ -1,6 +1,6 @@
 /* Estilo do cabeçalho */
 .cabecalho {
-    background-color: #145A32;
+    background-color: #1b023f;
     padding: 10px 0;
     text-align: center;
     color: #fff;
@@ -18,13 +18,13 @@
 @keyframes brilho {
     0% {
         text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6),
-                     0 0 10px #2ecc71,
-                     0 0 20px #2ecc71;
+                     0 0 10px #2705a2,
+                     0 0 20px #2705a2;
     }
     100% {
         text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6),
-                     0 0 20px #2ecc71,
-                     0 0 30px #2ecc71;
+                     0 0 20px #2705a2,
+                     0 0 30px #2705a2;
     }
 }
 
@@ -33,7 +33,7 @@
     font-size: 1.8rem;
     font-weight: 400;
     color: #D5F5E3;
-    background-color: rgba(23, 135, 84, 0.8);
+    background-color: rgba(92, 84, 243, 0.8);
     display: inline-block;
     padding: 8px 20px;
     border-radius: 20px;
@@ -95,19 +95,19 @@
 
 /* ================= Botões ================= */
 .btn-success {
-    background-color: #27AE60;
+    background-color: #00379c;
     border: none;
     transition: background-color 0.4s, transform 0.3s;
 }
 
 .btn-success:hover {
-    background-color: #1E8449;
+    background-color: #00379c;
     transform: scale(1.08);
 }
 
 /* Rodapé */
 .footer {
-    background-color: #145A32;
+    background-color: #23145a;
     color: white;
     padding: 15px;
     text-align: center;
@@ -117,7 +117,7 @@
 
 /* Navbar */
 .navbar {
-    background-color: #27AE60 !important;
+    background-color: #00379c !important;
     padding: 0.5px ;
 }
 /* Alinhar os blocos na horizontal */
@@ -130,7 +130,7 @@
 
 /* Itens da Navbar em formato de bloco destacado */
 .nav-link {
-    background-color: #145A32; /* Cor do bloco */
+    background-color: rgba(92, 84, 243, 0.8); /* Cor do bloco */
     color: white !important;
     font-weight: bold;
     padding: 12px 24px;
@@ -145,14 +145,14 @@
 
 /* Efeito ao passar o mouse */
 .nav-link:hover {
-    background-color: #117A37;
+    background-color: rgba(92, 84, 243, 0.8);
     transform: scale(1.08);
     color: #fff !important;
 }
 
 /* Item ativo (página atual) */
 .nav-link.active {
-    background-color: #1E8449;
+    background-color: rgba(92, 84, 243, 0.8);
     color: #fff !important;
 }
 
@@ -165,7 +165,7 @@
 
 /* Deixa os títulos mais destacados */
 h2, h3 {
-    color: #145A32;
+    color: #000000;
     font-weight: bold;
 }
 .container {
@@ -190,7 +190,18 @@ h2, h3 {
         transform: translateY(0);
     }
 }
-
+.nav-link:hover {
+    background-color: #000000;
+    transform: scale(1.08);
+    color: #fff !important;
+}
+.titulo-animado {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+    animation: brilho 2s ease-in-out infinite alternate;
+}
 
 
 
